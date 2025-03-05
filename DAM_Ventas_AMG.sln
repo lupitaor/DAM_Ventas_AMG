@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blazor.WEB", "Blazor.WEB\Blazor.WEB.csproj", "{4189CB3C-1C2C-4B39-ADC4-62B80B591D43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ventas.Mobile", "Ventas.Mobile\Ventas.Mobile.csproj", "{138A0EB8-A670-4AC0-85BF-B402DBA175C4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{609EB2C6-B056-44E3-85D9-C9768520F30D} = {609EB2C6-B056-44E3-85D9-C9768520F30D}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
